@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}Introduction}{5}{section.1}% 
+\contentsline {section}{\numberline {2}Doubly-periodic functions}{5}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Basic definitions}{5}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.2}$z$-derivatives}{6}{subsection.2.2}% 
+\contentsline {subsection}{\numberline {2.3}Fay identities}{7}{subsection.2.3}% 
+\contentsline {subsection}{\numberline {2.4}Total-derivative manipulations}{8}{subsection.2.4}% 
+\contentsline {subsubsection}{\numberline {2.4.1}Integration by parts for $V_2(1,2)$}{9}{subsubsection.2.4.1}% 
+\contentsline {subsubsection}{\numberline {2.4.2}Integration by parts for $V_3(1,2,3)$}{9}{subsubsection.2.4.2}% 
+\contentsline {subsubsection}{\numberline {2.4.3}Integration by parts for $V_4(1,2,3,4)$}{9}{subsubsection.2.4.3}% 
+\contentsline {subsubsection}{\numberline {2.4.4}Rewriting of $V_2(1,2)V_2(3,4)$}{11}{subsubsection.2.4.4}% 
+\contentsline {section}{\numberline {3}Simplifications of correlators}{11}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Worldsheet fermions}{11}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}Two points}{12}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}Next steps}{13}{subsection.3.3}% 
+\contentsline {section}{\numberline {A}Let's see what will happen in the appendices}{13}{appendix.A}% 
