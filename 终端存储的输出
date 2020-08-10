@@ -1,0 +1,87 @@
+Last login: Mon Aug 10 14:05:03 on ttys000
+-bash: /Users/seamus11/perl5/perlbrew/etc/bashrc: No such file or directory
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Seamus11deMBP:~ seamus11$ git clone https://github.com/seamus11t/yongzhang.git
+Cloning into 'yongzhang'...
+warning: You appear to have cloned an empty repository.
+Seamus11deMBP:~ seamus11$ ls
+Applications		gittest			t37t2t168t2242.txt
+CHY.m			in481.txt		t37t2t168t2313.txt
+CHY.nb			office			t37t3t385t2242.txt
+Creative Cloud Files	plt			t37t3t385t2313.txt
+Desktop			pol492office21.m	t37t4t595t2242.txt
+Documents		pol492scamppole1.m	t37t4t595t2314.txt
+Downloads		pol49office21.m		t37t5t693t2242.txt
+G49seeds.txt		r.m			t37t5t693t2314.txt
+Library			r.nb			t47t1t42t2315.txt
+Movies			ruan.m			t47t2t168t2315.txt
+Music			ruan.nb			t47t3t385t2315.txt
+ParrallelTb4096.m	s.jl			t47t4t595t2315.txt
+Pictures		step1481.txt		t47t5t693t2315.txt
+Public			syybu2office.jl		yongzhang
+Untitled-2.nb		t37t1t42t2242.txt	文字文稿1.docx
+col38.txt		t37t1t42t2313.txt
+Seamus11deMBP:~ seamus11$ cd yongzhang/
+Seamus11deMBP:yongzhang seamus11$ ls
+Seamus11deMBP:yongzhang seamus11$ git init
+Reinitialized existing Git repository in /Users/seamus11/yongzhang/.git/
+Seamus11deMBP:yongzhang seamus11$ ls
+Seamus11deMBP:yongzhang seamus11$ cp ~/4d3.m .
+cp: /Users/seamus11/4d3.m: No such file or directory
+Seamus11deMBP:yongzhang seamus11$ cp ~/4d3.nb .
+Seamus11deMBP:yongzhang seamus11$ ls
+4d3.nb
+Seamus11deMBP:yongzhang seamus11$ git add .
+Seamus11deMBP:yongzhang seamus11$ git commit -m "updates"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'seamus11@Seamus11deMBP.(none)')
+Seamus11deMBP:yongzhang seamus11$ ls
+4d3.nb
+Seamus11deMBP:yongzhang seamus11$ git config --global user.email "yongzhang.th@gmail.com"
+Seamus11deMBP:yongzhang seamus11$ git commit -m "updates"
+[master (root-commit) 9622346] updates
+ 1 file changed, 6896 insertions(+)
+ create mode 100644 4d3.nb
+Seamus11deMBP:yongzhang seamus11$ git push
+Username for 'https://github.com': seamus11t
+Password for 'https://seamus11t@github.com': 
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 123.13 KiB | 10.26 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/seamus11t/yongzhang.git
+ * [new branch]      master -> master
+Seamus11deMBP:yongzhang seamus11$ ls
+4d3.nb
+Seamus11deMBP:yongzhang seamus11$ git pull
+Already up to date.
+Seamus11deMBP:yongzhang seamus11$ git branch
+* master
+Seamus11deMBP:yongzhang seamus11$ git branch yongzhang
+Seamus11deMBP:yongzhang seamus11$ git branch
+* master
+  yongzhang
+Seamus11deMBP:yongzhang seamus11$ git checkout yongzhang
+Switched to branch 'yongzhang'
+Seamus11deMBP:yongzhang seamus11$ ls
+4d3.nb
+Seamus11deMBP:yongzhang seamus11$ code
+-bash: code: command not found
+Seamus11deMBP:yongzhang seamus11$ Code
+-bash: Code: command not found
+Seamus11deMBP:yongzhang seamus11$ 
